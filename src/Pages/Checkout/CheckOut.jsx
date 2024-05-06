@@ -3,7 +3,7 @@ import { useLoaderData } from "react-router-dom";
 const CheckOut = () => {
     const services = useLoaderData()
     // console.log(services)
-    const {title, _id, service_id} = services
+    const {title} = services
     return (
         <div>
             <h2>Book Service:{title}</h2>
